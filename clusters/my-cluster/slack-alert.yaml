@@ -11,6 +11,8 @@ spec:
     name: '*'
   - kind: GitRepository
     name: '*'
+  - kind: ImagePolicy
+    name: '*'
   providerRef:
     name: slack
 
